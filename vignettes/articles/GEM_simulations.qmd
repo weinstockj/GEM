@@ -69,7 +69,7 @@ burden using both GEM and the naive mutation count/burden as estimators.
 
 ```{r sim}
 #| cache: true
-sims = GEM:::wrap_simulation(nsims = 300, .progress = FALSE)
+sims = GEM:::wrap_simulation(nsims = 20, .progress = FALSE)
 ```
 
 ```{r plot}
