@@ -1,6 +1,6 @@
 # GEM Package
 
-The GEM package provides tools for simulating data and fitting a GEM model using Torch in R. It includes functions to generate synthetic datasets, fit a model based on those data, and assess model performance.
+The GEM package provides tools for simulating data and fitting a GEM model using Torch in R. It includes functions to generate synthetic datasets and fit a model based on those data.
 
 ## Installation
 
@@ -10,16 +10,10 @@ Install with:
 renv::install("weinstockj/GEM")
 ```
 
-Alternatively, clone the repository and install the package in R:
-
-```r
-devtools::install()
-```
-
 ## Usage
 
 #### Simulate Data
-Use simulate_data to generate a synthetic dataset:
+Use `simulate_data` to generate a synthetic dataset:
 
 This function returns a list containing:
 
@@ -41,6 +35,10 @@ The returned list includes:
  - Model coefficients (e.g. beta),
  - Fitted mutation burden estimates (fitted),
  - Loss history, and other parameters.
+
+### Vignettes
+
+Please see the "articles" portion of the package website for a brief vignette. 
 
 ### Testing
 To run the tests for GEM, execute:
