@@ -28,7 +28,7 @@ fit_model(
 
 \item{num_threads}{Number of threads to set}
 
-\item{size}{Optional subsample size}
+\item{size}{Optional subsample size (to reduce compute burden)}
 }
 \value{
 A list containing model parameters and fitted values

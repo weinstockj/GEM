@@ -1,3 +1,10 @@
+#' Generate simulated data
+#'
+#' @param n Number of candidate mutations
+#' @param p Number of annotations
+#' @param k Number of samples
+#' @return A list simulated data components
+#' @export
 simulate_data = function(n = 1e4, p = 10, k = 100) {
 
     sample_labels = 1:k

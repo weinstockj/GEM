@@ -2,6 +2,7 @@
 
 export("%>%")
 export(fit_model)
+export(simulate_data)
 importFrom(magrittr,"%>%")
 importFrom(torch,distr_normal)
 importFrom(torch,optim_adam)
